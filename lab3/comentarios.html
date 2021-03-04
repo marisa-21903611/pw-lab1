@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Londres</title>
+        <link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico"/>
+        <meta name = "Author" content = "Marisa Santos">
+        <meta name = "Keywords" content = "Palavras Chave">
+        <meta name = "Description" content = "Website sobre Londres">
+    </head>
+    <body>
+        <body style="background-color:	aliceblue"></body>
+        <h1> Londres </h1>
+        <img src="imagens/londres.jpg">
+        <br>
+        
+        <a href="index.html"> <b>Introdução</b> |</a>
+        <a href="local.html"> Localização |</a>
+        <a href="multimedia.html"> Multimédia |</a>
+        <a href="info.html"> Informações | </a>
+        <a href="quizz.html"> Quizz|</a>
+        <a href="comentarios.html"> <b>Comentários</b> |</a>
+        <a href="../index.html"> Home </a>
+
+        <h3> Comentários </h3>
+
+        <p> Nesta página, é possível deixar o seu comentário há cerca do Web Site relativamente à cidade de Londres, bem como sugestões de melhorias que poderiam ser realizadas em prol de uma melhor plataforma.</p>
+
+        <form action="/action_page.php">
+
+            <p> Nome: <input type="text" name ="nome" placeholder="Nome" size="30">  </p>
+            <p> Apelido: <input type="text" name ="apleido" placeholder="Apelido" size="30"></p>
+        
+            <p> Comentário: </p>
+            <textarea name="message" rows="5" cols="100">
+            </textarea>
+            <br><br>
+
+        <h4> Avaliação relativamente ao Web site</h4>
+            
+            <p> O site encontra-se explicíto relativamente ao assunto que é tratado? <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Resposta de Sim ou Não"></p>
+            <p> A lógica do web site faz sentido? <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Resposta de Sim ou Não"></p>
+            <p> Apresenta rigor, sem quaisquer erros? <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Resposta de Sim ou Não"></p>
+            <p> O site abrange diferentes aspetos sobre a cidade? <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Resposta de Sim ou Não"> </p>
+            <label for="quantity"> Qual a percentagem de facilidade de navegação nas várias páginas do web site?  </label>
+            <input type="range" min="0" max="100" name="taxa" value="quantity" oninput="taxaN.value = parseInt(taxa.value)"><output name="taxaN" for="taxa">0</output> %
+            
+
+            <p> Facilidade de utilização do web site : </p>
+                <input type="radio" name ="Utilização" value="numero">
+                <label for="numero1"> Concordo Totalmente</label> <br>
+                <input type="radio" name="Utilização" value="numero">
+                <label for="numero2"> Concordo </label><br>
+                <input type="radio" name="Utilização" value ="numero">
+                <label for="numero3"> Indiferente </label><br>
+                <input type="radio" name="Utilização" value ="numero">
+                <label for="numero4"> Discordo </label><br>
+                <input type="radio" name="Utilização" value ="numero">
+                <label for="numero5"> Discordo Totalmente</label><br>
+
+            <p> Facilidade de compreensão do web site : </p>
+                <input type="checkbox" id="Avaliação" name="Avaliação" value ="numero">
+                <label for="Avaliação1"> Concordo Totalmente </label><br>
+                <input type="checkbox" id="Avaliação" name="Avaliação" value ="numero">
+                <label for="Avaliação2"> Concordo  </label> <br>
+                <input type="checkbox" id="Avaliação" name="Avaliação" value="numero">
+                <label for="Avaliação3"> Indiferente </label> <br>
+                <input type="checkbox" id="Avaliação" name="Avaliação" value="numero">
+                <label for="Avaliação4"> Discordo </label> <br>
+                <input type="checkbox" id="Avaliação" name="Avaliação" value="numero">
+                <label for="Avaliação5"> Discordo Totalmente </label> <br><br>
+
+            <label for="quantity"> Avaliação do web site (sendo 5 o melhor e 1 o pior): </label>
+            <input type="number" id="quantity" name="quantity" min="0" max="100" step="5" ></p>
+
+            <label for="quantity"> Avaliação na originalidade (sendo 5 o melhor e 1 o pior): </label>
+            <input type="number" id="quantity" name="quantity" min="0" max="100" step="5" ></p>
+
+            <label for="quantity"> Avaliação no design (sendo 5 o melhor e 1 o pior): </label>
+            <input type="number" id="quantity" name="quantity" min="0" max="100" step="5" ></p>
+
+            <p> Sugestões de melhorias que poderiam ser realizadas:</p>
+            <textarea name="message" rows="5" cols="100">
+            </textarea><br> <br>
+
+            <input type="image" src="imagens/seta.png" alt="Submit" width="50" height="50"><br>
+            <input type="submit" value="Submit">
+
+            <input type="hidden" id="Laboratório3" name="Opinião relativa ao laboratório 3" value="10000">
+          </form> 
+    </body>
+</html>

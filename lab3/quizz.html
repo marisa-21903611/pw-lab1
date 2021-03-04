@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Londres</title>
+        <link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico"/>
+        <meta name = "Author" content = "Marisa Santos">
+        <meta name = "Keywords" content = "Palavras Chave">
+        <meta name = "Description" content = "Website sobre Londres">
+    </head>
+    <body>
+        <body style="background-color:	aliceblue"></body>
+        <h1> Londres </h1>
+        <img src="imagens/londres.jpg">
+        <br>
+        
+        <a href="index.html"> <b>Introdução</b> |</a>
+        <a href="local.html"> Localização |</a>
+        <a href="multimedia.html"> Multimédia |</a>
+        <a href="info.html"> Informações | </a>
+        <a href="quizz.html"> <b>Quizz</b> |</a>
+        <a href="comentarios.html"> Comentários |</a>
+        <a href="../index.html"> Home </a>
+
+        <h3> Quizz </h3>
+
+        <form method="post" action="mailto:nome.apelido@gmail.com"> 
+            <fieldset>
+                <legend> Identificação </legend>
+                <p> Nome : <input type="text" name ="nome" placeholder="Nome" size="50" autofocus required></p>
+                <p> Apelido : <input type="text" name="apelido" placeholder="Apelido" size="48" autocomplete="Santos"></p>
+                <p> Email : <input type="text" name="email" placeholder="Email" size="50" required> </p>
+                
+                
+
+            </fieldset>
+
+            <fieldset>
+                <legend> Quizz </legend>
+
+                <label for="simOuNao"> <b>1. </b> Londres é a maior cidade do Reino Unido?</label>
+                <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Resposta de Sim ou Não"><br><br>
+
+                <label for="simOuNao"> <b>2. </b> Londres é a cidade mais populosa do Reino Unido?</label>
+                <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Resposta de Sim ou Não"><br><br>
+
+                <label for="favcolor"> <b>3. </b> Quais as três cores que representam esta cidade? </label>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000"> 
+                <input type="color" id="favcolor" name="favcolor" value="#ff3550">
+                <input type="color" id="favcolor" name="favcolor" value="#fg0335"> <br>
+
+                <p> <b>4. </b> Qual é a àrea geográfica de Londres em km2?</p>
+                <input type="radio" name ="Àrea Geográfica" value="km2">
+                <label for="km2"> 874 km2</label> <br>
+                <input type="radio" name="Àrea Geográfica" value="km2">
+                <label for="km2"> 1572 km2 </label><br>
+                <input type="radio" name="Àrea Geográfica" value ="km2">
+                <label for="km2"> 1829 km2 </label><br>
+                
+                <p> <b>5. </b> Quantos habitantes tem Londres, aproximadamente?</p>
+                <input type="checkbox" id="Habitantes" name="Habitantes" value ="numero">
+                <label for="Habitantes1"> 8,8 milhões habitantes </label><br>
+                <input type="checkbox" id="Habitantes" name="Habitantes" value ="numero">
+                <label for="Habitantes2"> 900 000 habitantes  </label> <br>
+                <input type="checkbox" id="Habitantes" name="Habitantes" value="numero">
+                <label for="Habitantes3"> 10 milhões habitantes</label> <br>
+                <input type="checkbox" id="Habitantes" name="Habitantes" value="numero">
+                <label for="Habitante4"> 3,3 milhões habitantes </label> <br><br>
+
+                <label for="points"> <b>6. </b> Qual é a temperatura média que se faz sentir no Inverno:</label>
+                <input type="number" id="points" name="points" step="1"><br> <br>
+                <label for="points"><b>7. </b>Qual é a temperatura média que se faz sentir no Verão:</label>
+                <input type="number" id="points" name="points" step="1"><br> <br>
+
+                <label for="simOuNao"> <b>8. </b> Big Ben é um monumento mundialmente conhecido?</label>
+                <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Resposta de Sim ou Não"><br><br>
+
+                <label for="quantity"> <b>9.</b> Qual é a probabilidade, aproximadamente, de os turista visitarem o Big Ben?</label>
+                <input type="number" id="quantity" name="quantity" min="0" max="100" step="1" ></p>
+                <label for="quantity"> <b>10. </b> Qual é a probabilidade, mais concreta, de os turista visitarem o Big Ben?</label>
+                <input type="range" min="0" max="100" name="taxa" value="quantity" oninput="taxaN.value = parseInt(taxa.value)"><output name="taxaN" for="taxa">0</output> %
+
+                <p> <b>11. </b> Londres, já foi uma das cidades que recebeu os Jogos Olímpicos, quando?</p>
+                <label for="datemin"> De :</label>
+                <input type="date" id="datemin" name="datemin" min="2000-01-01"></input> 
+                <label for="datemax"> a :</label>
+                <input type="date" id="datemax" name=datemax max="2021-12-31"></input><br><br>
+
+                <label for="quantity"> <b>12. </b> Quantas vezes Londres já recebeu os Jogos olímpicos?</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="5"> <br><br>
+
+                <label for="files"> <b>13. </b> Qual a imagem que melhor descreve a cidade de Londres?</label>
+                <input type="file" id="myfile" name="myfile"><br><br><br>
+                
+                
+                <input type="image" src="imagens/seta.png" alt="Submit" width="50" height="50">  
+                <input type="image" src="imagens/mail.png" alt="Submit" width="80" height="50"> <br>
+                <input type="submit" value = "submit"> <input type="submit" value = "envie email">
+
+
+            </fieldset>
+        </form>
+
+    </body>
+</html>
