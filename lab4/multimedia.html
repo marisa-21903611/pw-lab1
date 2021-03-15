@@ -19,6 +19,7 @@
         <body style="background-color:	aliceblue"></body>
         <header>
             <h1 style="text-align:center;"> <i>Londres</i> </h1>
+            <div class="fixed"></div>
             <center> <img src="imagens/londres.jpg" title="foto"></center>
         </header>
 
@@ -38,25 +39,37 @@
                     <center><h3> Multimédia</h3></center>
                     <p id="unico"> Nesta página é possível visualizar diversas imagens de monumentos importantes de Londres, bem como um vídeo completo da cidade e um poema, escrito por <i>Manuel A. Domingues</i>, sobre a mesma.</p>
 
-                    <center>
+                <center>
                     <picture> 
-                        <a href="imagens/bigben.grande.jpg" target="bigben" > 
-                            <img src="imagens/bigben.pequeno.jpg" alt="bigben" title="foto"></a>
+                        <div class="img">
+                            <div class="imagem"></div>
+                                <div class="imagem2"></div>
+                        </div> 
+                            <a href="imagens/bigben.grande.jpg" target="bigben" > 
+                           <img src="imagens/bigben.pequeno.jpg" alt="bigben" title="foto"></a>
+                           
                         <figcaption> <b>Big Ben</b> <a href= "https://www.tudosobrelondres.com/big-ben"> [1]</a>  </figcaption> 
                             <details><p title|="detalhes"> O Big Ben é um dos monumentos mais importantes da cidade, e conhecido em todo o mundo.</p></details>
                     </picture>
                         <iframe title="grandes" scr="imagens/bigben.grande.jpg" width="800px"  frameBorder="0" name="bigben"> </iframe>
-                    <br>
+                    
+                        <br>
+                    
                     <picture>
-                        <a href="imagens/londoneye.grande.jpg" target="londoneye"> 
+                        <div class="img">
+                            <div class="imagem3"></div>
+                                <div class="imagem4"></div>
+                        </div>
+                        <a href="imagens/londoneye.grande.jpg" target="londoneye">
                             <img src="imagens/longoneye.pequeno.jpg" alt = "londoneye" title="foto"> </a>
+                       
                         <figcaption> <b>London Eye</b> <a href= https://www.tudosobrelondres.com/london-eye>[2] </a></figcaption>
                         <details><p> A London Eye também é um dos monumentos mais importantes que pertencem à cidade. Quando dentro das cabides, é possível ter uma vista magnífica da cidade.</p></details>
                     </picture>
                         <iframe title="grandes" scr="imagens/londoneye.grande.jpg" width="800px" frameBorder="0" name="londoneye" ></iframe>
                 </center>
             </section> 
-                
+            
                 <br>
 
                 <section>
@@ -78,10 +91,43 @@
                         <span>a casa estilo vitoriano, que prometeu</span><span>ocultar todas as palavras que dissemos</span><span>um ao outro, quando ao deitar</span><span>nos encolhíamos debaixo de</span>
                         <span>vários cobertores e mesmo assim</span><span>tínhamos frio. ou o definitivo,</span><span>aquele que falaria sobre Greenwich</span><span>e o meridiano que me ensinou a importância</span> 
                         <span>do tempo que sempre falta, principalmente</span><span>quando numa das pontes quis dizer amo-te,</span><span>mas havia um autocarro para</span> <span>apanhar. e era já o último.</span></i>
+                </section>
 
+                <section>
+                    <center><div class="sticky">Desenho Criativo</div></center>
+                        <center><svg width="400" height="300">
+                            <rect x="175" y="85" rx="15" ry="15" width="50" height="250" fill="red" stroke="white" stroke-width="10px">
+                                <animateTransform attributeName="transform"
+                                                  attributeType="XML"
+                                                  type="rotate"
+                                                  from="0 10 20"
+                                                  to="360 10 20"
+                                                  dur="5s"
+                                                  repeatCount="indefinite"/>
+                            </rect>
+                            <rect x="75" y="175" rx="15" ry="15" width="250" height="50" fill="red" stroke="white" stroke-width="10px">
+                                <animateTransform attributeName="transform"
+                                                  attributeType="XML"
+                                                  type="rotate"
+                                                  from="0 10 20"
+                                                  to="360 10 20"
+                                                  dur="5s"
+                                                  repeatCount="indefinite"/>
+                            </rect>
+                            <text x="50" y="50" fill="red"> Desenho da bandeira de Londres
+                                <animate id="a1" attributeName="fill" from="red" to ="blue" dur="2s" fill="freeze" repeatCount="indefinite"></animate> </text>
+        
+                    </svg>
+
+                    <center><div class="sticky">Desenho do Editor de SVG</div></center>
+                    <br>
+                    <img src="imagens/londres01.png" alt="Londres">                   
+                    <p><i>Não há nada mais característico de Londres do que o Big Ben, a London eye e os telefones de rua.</i></p>
+                </center>
+                   
                 </section>
                     <hr>
-                <section>
+            <section>
                     <center><svg width="400" height="300">
                         <g transform="translate(100,100)"> 
                             <a href=index.html> 

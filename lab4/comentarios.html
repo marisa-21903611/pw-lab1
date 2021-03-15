@@ -19,6 +19,7 @@
         <body style="background-color:	aliceblue"></body>
         <header>
             <h1 style="text-align:center;"> <i>Londres</i> </h1>
+            <div class="fixed"></div>
             <center> <img src="imagens/londres.jpg" title="foto"></center>
         </header>
 
@@ -37,16 +38,18 @@
                <center><h3> Comentários </h3></center> 
                     <p id="unico"> Nesta página, é possível deixar o seu comentário há cerca do Web Site relativamente à cidade de Londres, bem como sugestões de melhorias que poderiam ser realizadas em prol de uma melhor plataforma.</p>
             <section>
-                <h4> Formulário</h4>
-                <p> Preencha todos os espaços de modo a obter uma melhor experiência.</p>
-                <form action="/action_page.php">
-
-                    <p> Nome: <input type="text" name ="nome" placeholder="Nome" size="30">  </p>
-                    <p> Apelido: <input type="text" name ="apleido" placeholder="Apelido" size="30"></p>
+                <center><div class="sticky"><h4> Formulário</h4>
+                    Preencha todos os espaços de modo a obter uma melhor experiência.
+                    <form action="/action_page.php">
+                    <br>
+                        <span>Nome: <input type="text" name ="nome" placeholder="Nome" size="30"> </span>
+                        <span>Apelido: <input type="text" name ="apleido" placeholder="Apelido" size="30"></span>
+                    <br>
+                        <span>Comentário:</span>
+                        <textarea name="message" rows="5" cols="100">
+                        </textarea>
+                        <br><br></div></center>
                 
-                    <p> Comentário: </p>
-                    <textarea name="message" rows="5" cols="100">
-                    </textarea>
                     <br><br>
         
                 <h4> Avaliação relativamente ao Web site</h4>
@@ -101,6 +104,7 @@
         
                     <input type="hidden" id="Laboratório 4" name="Opinião relativa ao laboratório 4" value="10000">
                   </form> 
+            
         
             </section>
                 <hr>

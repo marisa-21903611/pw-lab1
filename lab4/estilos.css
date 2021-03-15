@@ -1,12 +1,12 @@
 @import "estilos.css";
 
-body {
-    background : aliceblue;
+*body {
+    
     /*universal*/
     font-family: 'Times New Roman', Times, serif;
     /*tipo*/
     color : black;
-    font-size: 15pt;
+    font-size: 15pt; 
 }
 
     /*atributo*/
@@ -79,8 +79,7 @@ body {
     div + p {
         background-color: orange;
     }
- 
-    
+
 
     h1{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -94,4 +93,69 @@ body {
         color : rgb(30, 47, 85);
         font-weight: bold;
         font-size: 15pt;
+    }
+
+    .img {
+        position : relative;
+        z-index : -4;
+        height: auto;
+    }
+    
+    .fixed{
+        background-color: aliceblue;
+    }
+
+    .sticky{
+        position: -webkit-londres;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color: #d8e5e6;
+        border: 2px solid #141281;
+    }
+
+
+
+    .imagem{
+        background:url(imagens/vista.jpg);
+        height: 112px;
+        width: 200px;
+        position: absolute;
+        left: 760px;
+        top: 0;
+        opacity: 0.5;
+        z-index : -1;
+    }
+
+    .imagem2{
+        background:url(imagens/rio.jpg);
+        height: 112px;
+        width: 200px;
+        position: absolute;
+        left: 430px;
+        top: 0;
+        opacity: 0.5;
+        z-index : -1;
+    }
+
+    .imagem3{
+        background:url(imagens/47.jpg);
+        height: 112px;
+        width: 200px;
+        position: absolute;
+        left: 430px;
+        top: 0;
+        opacity: 0.5;
+        z-index : -2;
+    }
+    
+    .imagem4{
+        background:url(imagens/55.jpg);
+        height: 112px;
+        width: 200px;
+        position: absolute;
+        left: 760px;
+        top: 0;
+        opacity: 0.5;
+        z-index : -1;
     }
