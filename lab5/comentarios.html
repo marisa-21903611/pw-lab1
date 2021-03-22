@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Londres</title>
+        <link rel="shortcut icon" type="image/x-icon" href="imagens/favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com">
+        <meta name = "Author" content = "Marisa Santos">
+        <meta name = "Keywords" content = "Palavras Chave">
+        <meta name = "Description" content = "Website sobre Londres">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+
+
+    </head>
+    <body>
+        
+        <div class="item1">
+            <h1 style="text-align:center;"> <i>Londres</i> </h1>
+            <div class="fixed"></div>
+        </div>
+            <br>
+            <div class="item"><center><img src="imagens/londres.1.jpg" style="max-width:100%; height:auto;"></center></div>
+            
+        <div class="row">
+        <div class="grid-container">
+            <div class="col-3 col-s-6 item2">
+                    <a href="index.html"> <i style="font-size:20px;color:black;" class="material-icons">&#xe22b;</i>  Introdução </a> 
+                    <a href="local.html"> <i style="font-size:20px;color:black;" class="material-icons">&#xe8b4;</i> Localização </a> 
+                    <a href="multimedia.html"><i style="font-size:20px;color:black;" class="material-icons">&#xe04a;</i> Multimédia </a> 
+                    <a href="info.html"> <i style="font-size:20px;color:black"  class="material-icons">&#xe155;</i> Informações  </a> 
+                    <a href="quizz.html">  <i style="font-size:20px;color:black" class="material-icons">&#xe8af;</i>Quizz</a> 
+                    <a href="comentarios.html"><i style="font-size:20px;color:black" class="material-icons">&#xe8dd;</i><b> Comentários</b></a> 
+                    <a href="html5-css.html"> <i style="font-size:20px;color:black" class="material-icons">&#xe245;</i>Html5-CSS </a>
+                    <a href="../index.html">  <i style="font-size:20px;color:black;" class="material-icons">&#xe88a; </i> Home </a>
+            </div>
+
+            <div class="col-6 col-s-9 item3">
+                <center><h3> Comentários </h3></center> 
+                    <p id="unico"> Nesta página, é possível deixar o seu comentário há cerca do Web Site relativamente à cidade de Londres, bem como sugestões de melhorias que poderiam ser realizadas em prol de uma melhor plataforma.</p>
+
+                    <center><div class="sticky"><h4> Formulário</h4>
+                        Preencha todos os espaços de modo a obter uma melhor experiência.
+                        <form action="/action_page.php">
+                        <br>
+                            <span>Nome: <input type="text" name ="nome" placeholder="Nome" size="30"> </span>
+                            <span>Apelido: <input type="text" name ="apleido" placeholder="Apelido" size="30"></span>
+                        <br>
+                            <span>Comentário:</span>
+                            <textarea name="message" rows="5" cols="100">
+                            </textarea>
+                            <br><br></div></center>
+                    
+                        <br><br>
+            
+                    <h4> Avaliação relativamente ao Web site</h4>
+                        
+                        <p id="cores"> O site encontra-se explicíto relativamente ao assunto que é tratado? <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Resposta de Sim ou Não"></p>
+                        <p id="cores"> A lógica do web site faz sentido? <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Resposta de Sim ou Não"></p>
+                        <p id="cores"> Apresenta rigor, sem quaisquer erros? <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Resposta de Sim ou Não"></p>
+                        <p id="cores"> O site abrange diferentes aspetos sobre a cidade? <input type="text" id="Sim" name="simOuNao" maxlength="3" size="20" placeholder="Resposta de Sim ou Não"> </p>
+                        <label for="quantity"> Qual a percentagem de facilidade de navegação nas várias páginas do web site?  </label>
+                        <input type="range" min="0" max="100" name="taxa" value="quantity" oninput="taxaN.value = parseInt(taxa.value)"><output name="taxaN" for="taxa">0</output> %
+                        
+            
+                        <p id="cores"> Facilidade de utilização do web site : </p>
+                            <input type="radio" name ="Utilização" value="numero">
+                            <label for="numero1"> Concordo Totalmente</label> <br>
+                            <input type="radio" name="Utilização" value="numero">
+                            <label for="numero2"> Concordo </label><br>
+                            <input type="radio" name="Utilização" value ="numero">
+                            <label for="numero3"> Indiferente </label><br>
+                            <input type="radio" name="Utilização" value ="numero">
+                            <label for="numero4"> Discordo </label><br>
+                            <input type="radio" name="Utilização" value ="numero">
+                            <label for="numero5"> Discordo Totalmente</label><br>
+            
+                        <p id="cores"> Facilidade de compreensão do web site : </p>
+                            <input type="checkbox" id="Avaliação" name="Avaliação" value ="numero">
+                            <label for="Avaliação1"> Concordo Totalmente </label><br>
+                            <input type="checkbox" id="Avaliação" name="Avaliação" value ="numero">
+                            <label for="Avaliação2"> Concordo  </label> <br>
+                            <input type="checkbox" id="Avaliação" name="Avaliação" value="numero">
+                            <label for="Avaliação3"> Indiferente </label> <br>
+                            <input type="checkbox" id="Avaliação" name="Avaliação" value="numero">
+                            <label for="Avaliação4"> Discordo </label> <br>
+                            <input type="checkbox" id="Avaliação" name="Avaliação" value="numero">
+                            <label for="Avaliação5"> Discordo Totalmente </label> <br><br>
+            
+                        <label for="quantity"> Avaliação do web site (sendo 5 o melhor e 1 o pior): </label>
+                        <input type="number" id="quantity" name="quantity" min="0" max="5" step="1" ></p>
+            
+                        <label for="quantity"> Avaliação na originalidade (sendo 5 o melhor e 1 o pior): </label>
+                        <input type="number" id="quantity" name="quantity" min="0" max="5" step="1" ></p>
+            
+                        <label for="quantity"> Avaliação no design (sendo 5 o melhor e 1 o pior): </label>
+                        <input type="number" id="quantity" name="quantity" min="0" max="5" step="1" ></p>
+            
+                        <p id="cores"> Sugestões de melhorias que poderiam ser realizadas:</p>
+                        <textarea name="message" rows="5" cols="100">
+                        </textarea><br> <br>
+            
+                        <input type="image" src="imagens/seta.png" alt="Submit" width="50" height="50"><br>
+                        <input type="submit" value="Submit">
+            
+                        <input type="hidden" id="Laboratório 4" name="Opinião relativa ao laboratório 4" value="10000">
+                      </form> 
+            </div>
+
+            <div class="col-9 col-s-12 item4"> 
+                    
+                <center> <img src="imagens/metro.jpg" title="foto" style="width:100%"> 
+                    <img src="imagens/dest.jpg" title="foto" style="width:100%"> 
+                    <img src="imagens/saiba.jpg" title="foto" style="width:100%"> 
+                </center>
+            
+                <br>
+            
+                <center>
+                 <div><p> <i> A cor característica de Londres, é sem dúvida o vermelho.</i></p></div> 
+                 <div><p><b><i> Os carros que se conduzem do lado contrário, as pessoas apressadas no metro - não há nada mais característico de Londres que isso mesmo.</b></i></p></div></center>
+                </center> 
+            
+    </div>
+    
+        </div>
+        </div>
+
+        <div class="item5">
+            <center><svg width="400" height="300">
+                <g transform="translate(100,100)"> 
+                    <a href=index.html> 
+                    <text id="TextElement" x="0" y="0" style="font-family:Verdana;font-size:12; visibility:hidden"> Introdução
+                        <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                        <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                        <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+                    </text>
+                </a>
+                        </g>
+    
+                <g transform="translate(100,100)"> 
+                    <a href="local.html">
+                    <text x="50" y="50" fill="Yellow" style="font-family:Verdana;font-size:20">Localização
+                        <animate id="a1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+                      <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                      <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+                      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-50" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                    </text> 
+                </a>
+                        </g>
+    
+                <g transform="translate(100,100)"> 
+                    <a href="multimedia.html">
+                    <text id="TextElement" x="40" y=67 style="font-family:Verdana;font-size:20; visibility:hidden"> Multimédia
+                        <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                        <animateMotion path="M 0 0 L 5 5" begin="1s" dur="5s" fill="freeze" />
+                        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                    </text> 
+                </a>
+                        </g> 
+    
+                <g transform="translate(100,100)"> 
+                    <a href="info.html">
+                    <text id="TextElement" x="0" y="0" style="font-family:Verdana;font: size 24px;; visibility:hidden"> Informações
+                        <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                        <animateMotion path="M10,110 A120,140 -90 0,1 150 20 A120,140 -90 0,1 10,150" begin="1s" dur="5s" fill="freeze" />
+                        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                    </text> 
+                </a>
+                        </g>
+    
+                <g transform="translate(10,10)"> 
+                    <a href="quizz.html">
+                        
+                          <rect x="15" y="15" rx="5" ry="5" fill="url(#grad3)" width="30" height="15" />
+                            <text fill="#ffffff" font-size="8" font-family="Verdana" x="30" y="20">Quizz</text>
+                        
+                        <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                        <animateMotion path="M 0 0 L 50 30" begin="1s" dur="5s" fill="green" />
+                        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                        <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+                    </a>   
+                        </g> 
+    
+                <g transform="translate(100,100)"> 
+                    <a href="comentarios.html">
+                    <text x="50" y="50" fill="blue" style="font-family:Verdana;font-size:15">Comentários
+                        <animate id="a1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"></animate>
+                        <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+                        <animateMotion path="M 0 0 L 5 5" begin="1s" dur="5s" fill="freeze" />
+                        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+                    </text>
+                    
+                </a>
+                        </g>
+    
+                <g id="R1" transform="translate(250 250)"> 
+                    <ellipse rx="100" ry="0" opacity=".3">
+                        <animateTransform attributeName="transform" type="rotate" dur="7s" from="0" to="360" repeatCount="indefinite" />
+                        <animate attributeName="cx" dur="8s" values="-20; 220; -20" repeatCount="indefinite" />
+                        <animate attributeName="ry" dur="3s" values="10; 60; 10" repeatCount="indefinite" />
+                    </ellipse>
+                        </g>
+                          <use xlink:href="#R1" transform="rotate(72 390 150)" />
+                          <use xlink:href="#R1" transform="rotate(144 390 150)" />
+                          <use xlink:href="#R1" transform="rotate(216 390 150)" />
+                          <use xlink:href="#R1" transform="rotate(288 390 150)" />
+              </svg>
+            </center>
+        
+            <br>
+            <i>Marisa Santos, a21903611, Universidade Lusófona de Humanidades e Tecnologias, 2020/2021.</i>
+        </div>
+    </body>
+</html>
