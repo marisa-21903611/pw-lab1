@@ -120,53 +120,23 @@
         position: -webkit-londres;
         position: sticky;
         top: 0;
-        padding: 5px;
+        padding: 0px;
         background-color: #d8e5e6;
         border: 2px solid #141281;
+        font-size:1vw;
     }
 
-    .imagem{
+
+    img.fixed{
         background:url(imagens/vista.jpg);
-        height: 112px;
-        width: 200px;
+        height: 225px;
+        width: 400px;
         position: absolute;
-        left: 760px;
-        top: 0;
-        opacity: 0.5;
-        z-index : -1;
-    }
-
-    .imagem2{
-        background:url(imagens/rio.jpg);
-        height: 112px;
-        width: 200px;
-        position: absolute;
-        left: 430px;
-        top: 0;
-        opacity: 0.5;
-        z-index : -1;
-    }
-
-    .imagem3{
-        background:url(imagens/47.jpg);
-        height: 112px;
-        width: 200px;
-        position: absolute;
-        left: 430px;
-        top: 0;
-        opacity: 0.5;
-        z-index : -2;
-    }
-    
-    .imagem4{
-        background:url(imagens/55.jpg);
-        height: 112px;
-        width: 200px;
-        position: absolute;
-        left: 760px;
-        top: 0;
-        opacity: 0.5;
-        z-index : -1;
+        height: 225px;
+        width: 400px;
+        position: fixed;
+        bottom: 60px;
+        border: 2px solid rgb(9, 9, 148);
     }
 
     /* estilos nas imagens*/
@@ -213,7 +183,7 @@
         font-size: 30px;
     }
       
-    /* Técnicas CSS Grid e media queries*/
+     /* Técnicas CSS Grid e media queries*/
     *{
         box-sizing: border-box;
     }
@@ -244,11 +214,12 @@
     }
 
     .item2 { grid-area: nav;
-        list-style-type: none;
         margin: 0;
         padding: 20px 0;
         font-size: 1vw;
-        
+        display : flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .item2 a{
@@ -264,6 +235,15 @@
             font-size: 1vw;
     }
         
+    .item2 parte1{
+        padding-bottom: 200px;
+    }
+    .item2 parte2{
+        padding-bottom: 200px;
+    }
+    .item2 parte3{
+        padding-bottom: 50px;
+    }
 
     .item3 { grid-area: main; 
         padding: 20px 0 ;
@@ -347,4 +327,4 @@
         .col-11 {width: 91.66%;}
         .col-12 {width: 100%;}
     }
-
+      
